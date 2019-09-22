@@ -11,11 +11,11 @@ def main():
     i = 1 # counter to keep track of number
 
     while i <= 20:
-        if i % 3 == 0 and i % 5 == 0:
+        if i % 3 == 0 and i % 5 == 0: #checks for multiples of both 3 and 5
             print("Fizz Buzz")
-        elif i % 3 == 0:
+        elif i % 3 == 0: #checks for multiples of 3
             print("Fizz")
-        elif i % 5 == 0:
+        elif i % 5 == 0: # checks for multiples of 5
             print("Buzz")
         else:
             print(i)
